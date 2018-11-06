@@ -49,9 +49,9 @@ Example, XOR cannot be done via a single layer (by one perceptron), but we showe
 ### (4) Learning
 1. In general, learning is a systematic method to change/update the weights so that the network can accomplish the desired task after a certain number of learning steps.
 2. There are basically three different types of learning: 
-<br> * Supervised learning*: For each pattern (member of the training set), we know what the correct output
+<br> * Supervised learning * : For each pattern (member of the training set), we know what the correct output
 should be, and we update the weights accordingly.
-<br> * Unsupervised learning*: We do not have any correct output information. The learning algorithm finds
+<br> * Unsupervised learning * : We do not have any correct output information. The learning algorithm finds
 (by itself) similarities between different training samples, and classifies them accordingly (usually this
 classification is called “clustering” when talking about unsupervised learning). In certain contexts, the
 process is also referred to as self-organization.
