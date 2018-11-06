@@ -38,11 +38,13 @@ for VLSI implementations.
 interpretation of neurobiological phenomena. On the other hand, engineers look to neurobiology for
 new ideas to solve problems more complex than those based on conventional hardwired design.
 
+_____
+
 ### (2) The perceptron and its training
 1. Rosenblatt’s percepton. (supervised learning)
 2. Logical NOT/ Logical AND/  Logical OR/ Any logical product term
 3. Learning Algorithm for the Perceptron
-
+******
 ### (3) Introduction to Multilayer networks
 Example, XOR cannot be done via a single layer (by one perceptron), but we showed a 2-layer network that can do XOR.
 
