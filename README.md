@@ -47,7 +47,7 @@ _____
 ******
 ### (3) Introduction to Multilayer networks
 Example, XOR cannot be done via a single layer (by one perceptron), but we showed a 2-layer network that can do XOR.
-
+******
 ### (4) Learning
 1. In general, learning is a systematic method to change/update the weights so that the network can accomplish the desired task after a certain number of learning steps.
 2. There are basically three different types of learning: 
@@ -71,4 +71,4 @@ updated. When the next input is given, previous weights are used, and again the 
 increments are found. This process is repeated till the end of an epoch. At the end of epoch, the
 weight increments are added to find the total increment, and added to the weights used within the
 epoch. This is sometimes called as off-line learning.
-
+******
