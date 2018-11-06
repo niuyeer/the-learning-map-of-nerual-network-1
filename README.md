@@ -1,6 +1,6 @@
 # the-learning-map-of-nerual-network-1
 
-### The knowledge summary of the nerual network class.
+### (1) Neural networks: Definitions, motivation, properties
 
 
 
@@ -37,3 +37,9 @@ for VLSI implementations.
 <br> • Neurobiological analogy: Neurobiologists look to (artificial) neural networks as a research tool for the
 interpretation of neurobiological phenomena. On the other hand, engineers look to neurobiology for
 new ideas to solve problems more complex than those based on conventional hardwired design.
+
+### (2) The perceptron and its training
+1. Rosenblatt’s percepton. (supervised learning)
+2. Logical NOT/ Logical AND/  Logical OR/ Any logical product term
+3. Learning Algorithm for the Perceptron
+
