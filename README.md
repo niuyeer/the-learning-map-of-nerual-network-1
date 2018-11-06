@@ -55,5 +55,18 @@ should be, and we update the weights accordingly.
 (by itself) similarities between different training samples, and classifies them accordingly (usually this
 classification is called “clustering” when talking about unsupervised learning). In certain contexts, the
 process is also referred to as self-organization.
-
+* _Reinforcement learning_: We may think of y1, y2, . . . (the outputs) as the actions we choose (e.g. moves
+of a chess game). Each action/output will incur a different reward (some outputs may be good/some
+may be bad, chess piece taken good, queen lost bad), and a new different observation of the environment (the new chess board configuration after the opponent also makes his move - note that this may thus
+be random). Depending on the rewards and the new observation, we update the weights.
+3. In terms of how we update the weights, there are basically two different types:
+* _Stepwise learning_: One input is given, output is observed and the weights are updated. Then, for the
+next input, the last updated weights are used (as in the description above or the perceptron training
+algorithm). In this case, there is no need to store the weight increments. This is also called on-line
+learning.
+* _Batch learning_: One input is given, necessary weight increments are found, but the weights are not
+updated. When the next input is given, previous weights are used, and again the necessary weight
+increments are found. This process is repeated till the end of an epoch. At the end of epoch, the
+weight increments are added to find the total increment, and added to the weights used within the
+epoch. This is sometimes called as off-line learning.
 
