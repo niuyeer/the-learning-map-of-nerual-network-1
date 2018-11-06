@@ -43,3 +43,9 @@ new ideas to solve problems more complex than those based on conventional hardwi
 2. Logical NOT/ Logical AND/  Logical OR/ Any logical product term
 3. Learning Algorithm for the Perceptron
 
+### (3) Introduction to Multilayer networks
+<br> Example, XOR cannot be done via a single layer (by one perceptron), but we showed a 2-layer network that can do XOR.
+
+### (4) Learning
+
+
